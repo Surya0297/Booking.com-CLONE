@@ -1,7 +1,8 @@
 let email=document.querySelector("#email");
 let password=document.querySelector("#pass");
 let btn=document.querySelector("#submit");
-let user=JSON.parse(localStorage.getItem("user"));
+let user=JSON.parse(localStorage.getItem("user"))||[];
+
 
 
 btn.addEventListener("click",function(){
@@ -9,6 +10,7 @@ btn.addEventListener("click",function(){
     for(let i=0;i<user.length;i++){
     if(email.value==user[i].email && password.value==user[i].pass)
     {alert ("Succedssfully logged in");
+    localStorage.setItem("curruser",user[i].name);
     window.open("../html/index.html","_self");
     found=true;
     break;

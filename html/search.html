@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/3f612bd57e.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/search.css">
 </head>
 <body>
-    <h1>iam search</h1>
+    <div id="header">
+        <div id="navbar">
+            <div id="nav-1">
+                <div id="logo"><i class="fa-solid fa-house"></i><span>GetSetStay.com</span></div>
+                <div id="signin">
+                    <button class="btn">INR</button>
+                    <button class="btn"><i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="btn"><i class="fa-solid fa-question"></i></button>
+                    <button class="btnp btn"class>List Your property</Button>
+                    <button class="btn spe" id="registerbtn">Register</button>
+                    <button class="btn spe" id ="signinbtn">Signin</button>
+                </div>
+            </div>
+            <div id="nav-2">
+                <div class="nav-2-Item i1">
+                    <i class="fa-solid fa-bed"></i>
+                    <span>stay</span>
+                </div>
+                <div class="nav-2-Item">
+                    <i class="fa-solid fa-plane"></i>
+                    <span>Flights</span>
+                </div>
+                <div class="nav-2-Item">
+                    <i class="fa-sharp fa-solid fa-hotel"></i>
+                    <span>Hotel+Flight</span>
+                </div>
+                <div class="nav-2-Item">
+                    <i class="fa-solid fa-car"></i>
+                    <span>Car Rental</span>
+                </div>
+                <div class="nav-2-Item">
+                    <i class="fa-solid fa-magnet"></i>
+                    <span>Attractions</span>
+                </div>
+                <div class="nav-2-Item">
+                    <i class="fa-solid fa-taxi"></i>
+                    <span>Airport Taxi</span>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    
+<div class="leftdiv">
+    <div class="left">
+        <div  id="search">
+            <h1 >Search</h1>
+            <label for="">Destination</label>
+            <input type="text" name="" id="des">
+            <label for="" >Check-in-date</label>
+            <input type="date" id="d1">
+            <label for="">check-out-date</label>
+            <input type="date" id="d2">
+            <label for="">No. of rooms 2persons/room</label>
+            <input type="text" id="rooms">
+            <button id="btn">Search</button>
+            
+        </div>
+        <div id="sort">
+            <label for="" style="font-weight:bold">Filter:</label>
+            <label for="" style="font-weight:bold">Price</label>
+            <select name="" id="" ><option value="HTL">High to Low</option><option value="LTH">Low To High</option></select>
+            
+            <label for="" style="font-weight:bold">Star</label>
+            <select name="" id="filterstar" >          
+                <option value=""></option>
+                <option value="1">*</option>
+                <option value="2">* * </option>
+                <option value="3">* * * </option>
+                <option value="4">* * * *</option>
+                <option value="5">* * * * *</option>
+            </select>
+            <button id="apply">Apply</button>
+            <button id="reset">Reset</button>
+        </div>
+       
+    </div>
+    
+    <div id="searchedProperty">
+        <h2>Total Properties Found:</h2>  
+        
+        
+    </div>
+</div>
 </body>
 </html>
 <script src="../js files/search.js"></script>
