@@ -4,10 +4,11 @@ let userobj={};
 let btn=document.querySelector("#submit");
 
 btn.addEventListener("click",function(){ 
+let name=document.querySelector("#name").value;
 let email=document.querySelector("#email").value;
 let pass=document.querySelector("#pass").value;
 
-userobj={email,pass};
+userobj={name,email,pass};
 user.push(userobj);
 localStorage.setItem("user",JSON.stringify(user));
 alert("created an account");

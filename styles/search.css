@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    position: relative;
+}
+#navbar{
+    padding: 10px;
+    height: 120px;
+    background-color: #003580;
+    
+}
+#logo i{
+    margin-right: 10px;
+}
+#nav-1{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.btn{
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color:white;
+    background-color: #003580;
+    font-size: 15px;
+}
+.btnp{
+    border: 1px solid white;
+}
+.spe{
+   background-color: white;
+    color: #003580;
+}
+
+#nav-2{
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    color: white;
+    gap: 40px;
+}
+.nav-2-Item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+.i1{
+    border: 1px solid white;
+}
+.nav-2-Item:hover{
+    background-color: #153f7b;
+}
+.leftdiv{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+#search{
+    background-color: #febb02;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 130px;
+    gap: 10px;
+}
+#search input{
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+#search button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#search button:hover{
+    background-color: #3a5b8a;
+}
+#searchedProperty{
+
+    width: 80%;
+   
+    margin: auto;
+    margin-left: 30px;
+    border-radius: 9px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+#searchedProperty div{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    
+   
+    
+}
+#searchedProperty div div{
+
+flex-direction: column;
+border: none;
+padding-left:20px;
+padding-top: 0px;
+
+}
+#searchedProperty div div h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+#searchedProperty div div p{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+#searchedProperty img{
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+}
+
+#sort{
+    background-color: #febb02;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    gap: 10px;
+}
+select{
+    background-color: white;
+    color: #003580;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+#filterstar{
+    font-size: 30px;
+    background-color: white;
+    color: #003580;
+}
+#sort button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+#searchedProperty button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 100px
+}

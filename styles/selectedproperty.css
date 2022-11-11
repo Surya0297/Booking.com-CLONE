@@ -1,0 +1,232 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    position: relative;
+}
+#navbar{
+    padding: 10px;
+    height: 120px;
+    background-color: #003580;
+    
+}
+#logo i{
+    margin-right: 10px;
+}
+#nav-1{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.btn{
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color:white;
+    background-color: #003580;
+    font-size: 15px;
+}
+.btnp{
+    border: 1px solid white;
+}
+.spe{
+   background-color: white;
+    color: #003580;
+}
+
+#selectedProperty{
+
+    width: 60%;
+    margin: auto;
+    border-radius: 9px;
+    
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+#selectedProperty div{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+}
+#selectedProperty div div{
+
+flex-direction: column;
+border: none;
+padding-left:20px;
+padding-top: 0px;
+
+}
+#selectedProperty div div h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+#selectedProperty div div p{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+#selectedProperty img{
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+#sort{
+    background-color: #febb02;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    gap: 10px;
+}
+select{
+    background-color: white;
+    color: #003580;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+#filterstar{
+    font-size: 30px;
+    background-color: white;
+    color: #003580;
+}
+#sort button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+#selectedProperty button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 200px
+}
+#list div p{
+    margin-top: 0px;
+    }
+    #list div h4{
+        margin: 0px;
+    }
+    .foot-1{
+        width: 100%;
+        height: 150px;
+        background-color: #003580;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+    .margin{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .foot-1 input{
+        height: 30px;
+        width: 300px;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 30px;
+    }
+    .foot-1 button{
+        height: 50px;
+        width: 120px;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #0071c2;
+        color: white;
+    }
+    .foot-2{
+        width: 100%;
+        height: 50px;
+        background-color: #0071c2;
+        color: white;
+        text-align: center;
+        padding: 10px;    
+    }
+    .foot-2 button{
+        background-color: #0071c2;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        height: 40px;
+        width: 200px;
+        font-size: 15px;
+        font-weight: 500;
+        font-weight: bold;
+    }
+    .foot-3{
+        margin-top: 2px;
+        width: 100%;
+        height: 50px;
+        background-color: #0071c2;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .foot-3 a{
+        color: white;
+        margin-right: 30px;
+        font-weight: bold;
+    }
+    #footlinks{
+        width: 60%;
+        margin: auto;
+        color: #0071c2;
+    }
+    #footlinks li{
+        list-style-type: none;
+    }
+    #partners{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        color: lightslategray;
+        padding: 60px;
+    }
+    .partnerimg{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        justify-content:space-evenly;
+        padding: 30px;
+    }
+    .flex{
+        cursor: pointer;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        
+    }

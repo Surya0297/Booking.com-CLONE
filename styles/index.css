@@ -95,7 +95,7 @@ width: 100%;
     width: 60%;
     margin: auto;
     height: 30px;
-    background-color: white;
+    background-color: #febb02;
     border: 3px solid #febb02;
     display: flex;
     align-items: center;
@@ -112,6 +112,14 @@ width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content:space-around ;
+    height: 30px;
+    width: 23%;
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+    
+
 }
 #searchinput{
     border: none;
@@ -120,6 +128,21 @@ width: 100%;
 #searchdate{
     color: lightslategray;
     cursor: pointer;
+    border: none;
+}
+.searchBarItem input{
+    color: lightslategray;
+    cursor: pointer;
+    height: 30px;
+
+    border: #003580;
+    
+
+    
+}
+#num{
+    width: 100px;
+    height: 30px;
 }
 #middleSection{
     width: 60%;
