@@ -15,6 +15,7 @@ body{
 #logo i{
     margin-right: 10px;
 }
+
 #nav-1{
     margin: auto;
     width: 60%;
@@ -37,18 +38,20 @@ body{
     font-size: 15px;
 }
 #signinBlock{
-    width: 25%;
+    width: 20%;
     margin: auto;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 15px;
     }
 #signinBlock input{
-    height: 40px;
+    height: 25px;
     font-size: 20px;
     border: 1px solid black;
     border-radius: 4px;
+    margin-top: 0px;
 
 }
 #signinBlock button{
@@ -64,8 +67,7 @@ span{
     text-align: center;
 }
  .icons {
-    height: 100px;
-    color: #003580;
+   color: #003580;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -80,3 +82,16 @@ span{
     margin: 0px;
  }
  
+label{
+    margin-bottom: 0px;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 12px;
+}
+#signinBlock{
+    margin: auto;
+    padding: 0px;
+}
