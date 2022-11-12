@@ -17,7 +17,7 @@ let curruser=localStorage.getItem("curruser");
 
 if(curruser){
     
-    document.getElementById("signinbtn").innerText=curruser;
+    document.getElementById("signinbtn").innerText="Hello, "+curruser.toUpperCase();
     let btn=document.getElementById("signinbtn");
     btn.addEventListener("click",function(){
         alert("Lgging Out")

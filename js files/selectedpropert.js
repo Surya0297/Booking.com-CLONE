@@ -22,13 +22,20 @@ hotelarr.forEach(element => {
     img.setAttribute("src",element.img);
 
     let name=document.createElement("h3");
-    name.innerText=element.name;
+    name.innerText=(element.name).toUpperCase();
+    name.style.color="blue";
+
 
     let location=document.createElement("p");
-    location.innerText=element.location;
+    location.innerText=(element.location).toUpperCase();
 
     let rating=document.createElement("p");
     rating.innerText="Rating: "+element.star+" Star";
+
+    let tax=document.createElement("p");
+    tax.innerText="*inclusive of all taxes";
+    tax.style.color="blue";
+    tax.style.fontStyle="italic";
 
     let price=document.createElement("h3");
     price.innerText="Rs. "+element.price+"/night";
@@ -49,13 +56,39 @@ hotelarr.forEach(element => {
 
     let btn=document.createElement("button");
     btn.innerText="Confirm Booking";
+
+    let btn1=document.createElement("button");
+    btn1.innerText="APPLY COUPOUN *masai20*";
+    btn1.style.marginTop="30px"
+
+    btn1.addEventListener("click",function(){
+        console.log("yes");
+        element["price"]=(80/100)*element.price;
+        console.log(element.price);
+        
+    let offer=document.createElement("h1");
+    offer.innerText="!! OFFER PRICE !!"
+    offer.style.color="blue";
+
+    let newprice=document.createElement("h3");
+    newprice.innerText=" ROOM PRICE: Rs. "+element.price+"/night";
+
+    let newsubtotal=document.createElement("h3");
+    newsubtotal.innerText="New Subtotal: Rs. "+element.price*days+" for "+days+" nights";
+    
+    let div3=document.createElement("div");
+    div3.append(offer,newprice,newsubtotal);
+    cont.append(div3);
+        
+    })
+
     btn.addEventListener("click",function(){
         let x=prompt("Do you wish to Confirm Booking Please Enter OTP:");
         {
             if(x==123){
                 element["days"]=days;
                 element["checkin"]=d1;
-                element["ckeckout"]=d2;
+                element["checkout"]=d2;
                 bookingarr.push(element);
                 localStorage.setItem("booking",JSON.stringify(bookingarr));
                 alert("Booking Confirmed")
@@ -80,7 +113,7 @@ hotelarr.forEach(element => {
         divrate.append(i1);
     }
     
-    divinner.append(divrate,rating,indate,outdate,price,subtotal,p,btn);
+    divinner.append(divrate,rating,indate,outdate,price,tax,subtotal,p,btn,btn1);
     
     div.append(img,divinner);
     
