@@ -36,19 +36,27 @@ if(curruser){
 }
 let searchbtn=document.querySelector(".searchbtn");
 
-searchbtn.addEventListener("click",getData);
+searchbtn.addEventListener("click",checkuser);
+
+function checkuser(){
+    if(curruser){
+        getData();
+    }else{
+        alert("Please signin");
+    }
+}
    
-   
+  
     async function getData(){
         
-        
+
         try{
         let res=await fetch("../json/hotel.json")
         let out=await res.json();
                
             let q=document.querySelector("#searchinput").value;
             if(q==""){
-                alert("Plrase enter Destination")
+                alert("Please enter Destination")
             }
           else{
             let newData=out.filter(function(elem){
@@ -86,4 +94,3 @@ searchbtn.addEventListener("click",getData);
         alert(err);
             }
     }
-    

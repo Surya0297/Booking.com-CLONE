@@ -1,13 +1,20 @@
-let hotelarr=JSON.parse(localStorage.getItem("selectedproperty"))||[];
-let bookingarr=JSON.parse(localStorage.getItem("booking"))||[];
-let days=localStorage.getItem("days");
-let d1=localStorage.getItem("d1");
-let d2=localStorage.getItem("d2");
+let hotelarr=JSON.parse(localStorage.getItem("booking"))||[];
+
 function display(hotelarr){
-    let cont=document.querySelector("#selectedProperty");
+    let cont=document.querySelector("#bookedProperty");
+    cont.innerHTML=null;
+
+    if(hotelarr.length==0){
+            cont.innerText="No Bookings!!"
+            cont.style.height="500px";
+            cont.style.fontSize="40px";
+            cont.style.textAlign="center";
+            
+            
+       }
    
-   
-hotelarr.forEach(element => {
+hotelarr.forEach(function(element,i) {
+    
     
     let divrate=document.createElement("div");
     divrate.style.display="flex";
@@ -34,13 +41,13 @@ hotelarr.forEach(element => {
     price.innerText="Rs. "+element.price+"/night";
 
     let subtotal=document.createElement("h3");
-    subtotal.innerText="Rs. "+element.price*days+" for "+days+" nights";
+    subtotal.innerText="Rs. "+element.price*element.days+" for "+element.days+" nights";
 
     let indate=document.createElement("p");
-    indate.innerText="Check in: "+d1
+    indate.innerText="Check in: "+element.checkin
 
     let outdate=document.createElement("p");
-    outdate.innerText="Check out: "+d2
+    outdate.innerText="Check out: "+element.checkout
 
 
     let p=document.createElement("p");
@@ -48,18 +55,12 @@ hotelarr.forEach(element => {
 
 
     let btn=document.createElement("button");
-    btn.innerText="Confirm Booking";
+    btn.innerText="Cancel Booking";
     btn.addEventListener("click",function(){
-        let x=prompt("Do you wish to Confirm Booking Please Enter OTP:");
+        let x=prompt("Do you wish to Cancel Booking Please Enter OTP:");
         {
             if(x==123){
-                element["days"]=days;
-                element["checkin"]=d1;
-                element["ckeckout"]=d2;
-                bookingarr.push(element);
-                localStorage.setItem("booking",JSON.stringify(bookingarr));
-                alert("Booking Confirmed")
-                window.open("../html/index.html","_self")
+                deleteBooking(element,i);
             }else{
                 alert("Wrong OTP Try Again")
                 window.open("../html/index.html","_self")
@@ -84,13 +85,24 @@ hotelarr.forEach(element => {
     
     div.append(img,divinner);
     
+    
+
     cont.append(div);
 })
 
 }
 
 display(hotelarr);
+
+
 let logo=document.querySelector("#logo");
 logo.addEventListener("click",function(){
     window.open("../html/index.html","_self");
 })
+
+function deleteBooking(element,i){
+    hotelarr.splice(i,1);
+    localStorage.setItem("booking",JSON.stringify(hotelarr));
+    display(hotelarr);
+
+}
