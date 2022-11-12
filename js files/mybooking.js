@@ -23,16 +23,27 @@ hotelarr.forEach(function(element,i) {
     divrate.style.padding="0px";
     let div=document.createElement("div");
     let divinner=document.createElement("div");
+    let div1=document.createElement("div");
 
 
     let img=document.createElement("img");
     img.setAttribute("src",element.img);
 
+    let img1=document.createElement("img");
+    img1.setAttribute("src",element.img);
+
+    let img2=document.createElement("img");
+    img2.setAttribute("src",element.img);
+
+    let img3=document.createElement("img");
+    img3.setAttribute("src",element.img);
+
     let name=document.createElement("h3");
-    name.innerText=element.name;
+    name.innerText=(element.name).toUpperCase();
+    name.style.color="blue";
 
     let location=document.createElement("p");
-    location.innerText=element.location;
+    location.innerText=(element.location).toUpperCase();
 
     let rating=document.createElement("p");
     rating.innerText="Rating: "+element.star+" Star";
@@ -83,7 +94,12 @@ hotelarr.forEach(function(element,i) {
     
     divinner.append(divrate,rating,indate,outdate,price,subtotal,p,btn);
     
-    div.append(img,divinner);
+    div1.append(img,img1,img2,img3);
+    div1.style.display="flex";
+    div1.style.flexDirection="row";
+    div1.style.justifyContent="space-around";
+
+    div.append(div1,divinner);
     
     
 
