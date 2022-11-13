@@ -67,6 +67,7 @@ hotelarr.forEach(function(element,i) {
 
     let btn=document.createElement("button");
     btn.innerText="Cancel Booking";
+    
     btn.addEventListener("click",function(){
         let x=prompt("Do you wish to Cancel Booking Please Enter OTP:");
         {
