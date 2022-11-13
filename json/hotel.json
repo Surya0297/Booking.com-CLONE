@@ -4,14 +4,14 @@
         "name":"Sonikas Leisure",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/166824255.webp?k=8dd55efb512de54b17509ba68e763a8963f43ec878163e453966d3313d7d5dc9&o=&s=1",
         "price":1200,
-        "location":"bali",
+        "location":"Candolim",
         "star":2,
         "city":"goa"
     },
     {   "city":"goa",
         "star":3,
         "price":2400,
-        "location":"bali",
+        "location":"Calangute",
         "id":2,
         "name":"FabHotel Caca Kiara ",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/174026235.webp?k=25eddeadea981c5e48fa565eeb09e8991d8d94829548c718345e8a3f0defa039&o=&s=1"
@@ -19,7 +19,7 @@
     {   "city":"goa",
         "star":4,
         "price":2400,
-        "location":"bali",
+        "location":"Panji",
         "id":3,
         "name":"Oxygen Resorts",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/329469823.webp?k=cd7a2c2d8db00a443111d80fe92359855179640640a3b43b0c52a59f07b3b450&o=&s=1"
@@ -27,7 +27,7 @@
     {   "city":"goa",
         "star":2,
         "price":2500,
-        "location":"bali",
+        "location":"North Goa",
         "id":4,
         "name":"Siolim Holiday",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/401982953.webp?k=c944fb14eb4904e6321a0da1f0f436e3d1d5009e8b270998ea733c24161ad47c&o=&s=1"
@@ -35,7 +35,7 @@
     {   "city":"goa",
         "star":3,
         "price":2000,
-        "location":"calangute",
+        "location":"Calangute",
         "id":5,
         "name":"Aaria Residency",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/236932995.webp?k=e692f759a28b43ce14a6824faac29d4c8ad48488eb14a0c7f2a52a100174ef8c&o=&s=1"
@@ -45,14 +45,14 @@
         "name":"Sonikas Leisure",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/166824255.webp?k=8dd55efb512de54b17509ba68e763a8963f43ec878163e453966d3313d7d5dc9&o=&s=1",
         "price":1200,
-        "location":"bali",
+        "location":"Panji",
         "star":2,
         "city":"goa"
     },
     {   "city":"goa",
         "star":3,
         "price":2400,
-        "location":"bali",
+        "location":"South Goa",
         "id":2,
         "name":"FabHotel Caca Kiara ",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/174026235.webp?k=25eddeadea981c5e48fa565eeb09e8991d8d94829548c718345e8a3f0defa039&o=&s=1"
@@ -60,7 +60,7 @@
     {   "city":"goa",
         "star":4,
         "price":2400,
-        "location":"bali",
+        "location":"North Goa",
         "id":3,
         "name":"Oxygen Resorts",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/329469823.webp?k=cd7a2c2d8db00a443111d80fe92359855179640640a3b43b0c52a59f07b3b450&o=&s=1"
@@ -68,7 +68,7 @@
     {   "city":"goa",
         "star":2,
         "price":2500,
-        "location":"bali",
+        "location":"Candolim",
         "id":4,
         "name":"Siolim Holiday",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/401982953.webp?k=c944fb14eb4904e6321a0da1f0f436e3d1d5009e8b270998ea733c24161ad47c&o=&s=1"
@@ -76,7 +76,7 @@
     {   "city":"goa",
         "star":3,
         "price":2000,
-        "location":"calangute",
+        "location":"Calangute",
         "id":5,
         "name":"Aaria Residency",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/236932995.webp?k=e692f759a28b43ce14a6824faac29d4c8ad48488eb14a0c7f2a52a100174ef8c&o=&s=1"
@@ -86,14 +86,14 @@
         "name":"Sonikas Leisure",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/166824255.webp?k=8dd55efb512de54b17509ba68e763a8963f43ec878163e453966d3313d7d5dc9&o=&s=1",
         "price":1200,
-        "location":"bali",
+        "location":"Calangute",
         "star":2,
         "city":"goa"
     },
     {   "city":"goa",
         "star":3,
         "price":2400,
-        "location":"bali",
+        "location":"Candolim",
         "id":2,
         "name":"FabHotel Caca Kiara ",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/174026235.webp?k=25eddeadea981c5e48fa565eeb09e8991d8d94829548c718345e8a3f0defa039&o=&s=1"
@@ -101,7 +101,7 @@
     {   "city":"goa",
         "star":4,
         "price":2400,
-        "location":"bali",
+        "location":"Panji",
         "id":3,
         "name":"Oxygen Resorts",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/329469823.webp?k=cd7a2c2d8db00a443111d80fe92359855179640640a3b43b0c52a59f07b3b450&o=&s=1"
@@ -109,7 +109,7 @@
     {   "city":"goa",
         "star":2,
         "price":2500,
-        "location":"bali",
+        "location":"Candolim",
         "id":4,
         "name":"Siolim Holiday",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/401982953.webp?k=c944fb14eb4904e6321a0da1f0f436e3d1d5009e8b270998ea733c24161ad47c&o=&s=1"
@@ -117,7 +117,7 @@
     {   "city":"goa",
         "star":3,
         "price":2000,
-        "location":"calangute",
+        "location":"Panji",
         "id":5,
         "name":"Aaria Residency",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/236932995.webp?k=e692f759a28b43ce14a6824faac29d4c8ad48488eb14a0c7f2a52a100174ef8c&o=&s=1"
@@ -127,14 +127,14 @@
         "name":"Sonikas Leisure",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/166824255.webp?k=8dd55efb512de54b17509ba68e763a8963f43ec878163e453966d3313d7d5dc9&o=&s=1",
         "price":1200,
-        "location":"bali",
+        "location":"South Goa",
         "star":2,
         "city":"goa"
     },
     {   "city":"goa",
         "star":3,
         "price":2400,
-        "location":"bali",
+        "location":"Morjim",
         "id":2,
         "name":"FabHotel Caca Kiara ",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/174026235.webp?k=25eddeadea981c5e48fa565eeb09e8991d8d94829548c718345e8a3f0defa039&o=&s=1"
@@ -142,7 +142,7 @@
     {   "city":"goa",
         "star":4,
         "price":2400,
-        "location":"bali",
+        "location":"Candolim",
         "id":3,
         "name":"Oxygen Resorts",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/329469823.webp?k=cd7a2c2d8db00a443111d80fe92359855179640640a3b43b0c52a59f07b3b450&o=&s=1"
@@ -150,7 +150,7 @@
     {   "city":"goa",
         "star":2,
         "price":2500,
-        "location":"bali",
+        "location":"Candolim",
         "id":4,
         "name":"Siolim Holiday",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/401982953.webp?k=c944fb14eb4904e6321a0da1f0f436e3d1d5009e8b270998ea733c24161ad47c&o=&s=1"
@@ -199,7 +199,7 @@
     {   "city":"bali",
         "star":3,
         "price":2000,
-        "location":"calangute",
+        "location":"bali",
         "id":5,
         "name":"Aaria Residency",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/236932995.webp?k=e692f759a28b43ce14a6824faac29d4c8ad48488eb14a0c7f2a52a100174ef8c&o=&s=1"
@@ -240,7 +240,7 @@
     {   "city":"bali",
         "star":3,
         "price":2000,
-        "location":"calangute",
+        "location":"bali",
         "id":5,
         "name":"Aaria Residency",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/236932995.webp?k=e692f759a28b43ce14a6824faac29d4c8ad48488eb14a0c7f2a52a100174ef8c&o=&s=1"
@@ -281,7 +281,7 @@
     {   "city":"bali",
         "star":3,
         "price":2000,
-        "location":"calangute",
+        "location":"bali",
         "id":5,
         "name":"Aaria Residency",
         "img":"https://cf.bstatic.com/xdata/images/hotel/square200/236932995.webp?k=e692f759a28b43ce14a6824faac29d4c8ad48488eb14a0c7f2a52a100174ef8c&o=&s=1"
